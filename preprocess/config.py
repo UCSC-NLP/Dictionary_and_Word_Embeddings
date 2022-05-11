@@ -1,5 +1,5 @@
 lang = 'en'
-root = '/data/users/kartik/thesis'
+root = '/data/users/kartik/Dictionary_and_Word_Embeddings'
 
 
 raw_paths = {}

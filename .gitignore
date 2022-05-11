@@ -1,4 +1,10 @@
+ipython_notebooks/
+*.ipynb
+processed_data/*
+data/*
+!processed_data/__init__.py
+!data/__init__.py
+!ipython_notebooks/__init__.py
 *.ipynb_checkpoints
 *.DS_Store
 *.pyc
-data/*

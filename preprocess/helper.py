@@ -8,7 +8,7 @@ import pandas as pd
 # import faiss
 import json
 import pickle
-import thesis.preprocess.config as config
+import Dictionary_and_Word_Embeddings.preprocess.config as config
 
 import random
 random.seed(1234)
@@ -25,7 +25,7 @@ def build_sample_data(k=10_000):
     sampled_db = [db[i] for i in samples_indices]
     # return sampled_db
     
-    # data_path = f'/data/users/kartik/thesis/processed_data/{lang}.10k_sampled.wordgloss_group.pkl'
+    # data_path = f'/data/users/kartik/Dictionary_and_Word_Embeddings/processed_data/{lang}.10k_sampled.wordgloss_group.pkl'
     print (f'Writing {len(sampled_db)} samples to {config.sampled_data_path}')
     write_pickle_file(sampled_db,config.sampled_data_path)
     
