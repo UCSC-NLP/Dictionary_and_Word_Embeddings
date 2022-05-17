@@ -1,7 +1,7 @@
-ipython_notebooks/
 *.ipynb
 processed_data/*
 data/*
+ipython_notebooks/*
 !processed_data/__init__.py
 !data/__init__.py
 !ipython_notebooks/__init__.py
