@@ -42,3 +42,22 @@ Test:
 4433/4529 = 0.9788 in glove with 2608 unique values
 96/4529 = 0.0212 in glove with 88 unique values
 
+
+
+
+FastText data already extracted...
+------------------- Extracting FastText Embeddings -------------------
+30574 corresponding words found in FastText out of 31444 words in our set: 2.766823559343595 percent and found 17393 unique words
+870 corresponding words found in FastText out of 31444 words in our set: 2.766823559343595 percent and found 769 unique words
+
+
+ Keys found in PKL data dictionary: dict_keys(['word', 'gloss', 'index', 'example', 'sgns', 'char', 'electra', 'glove', 'fasttext'])
+------------------- Extracting FastText Embeddings -------------------
+4475 corresponding words found in FastText out of 4593 words in our set: 2.5691269322882646 percent and found 2507 unique words
+118 corresponding words found in FastText out of 4593 words in our set: 2.5691269322882646 percent and found 103 unique words
+
+
+ Keys found in PKL data dictionary: dict_keys(['word', 'gloss', 'index', 'example', 'sgns', 'char', 'electra', 'glove', 'fasttext'])
+------------------- Extracting FastText Embeddings -------------------
+4396 corresponding words found in FastText out of 4529 words in our set: 2.936630602782071 percent and found 2573 unique words
+133 corresponding words found in FastText out of 4529 words in our set: 2.936630602782071 percent and found 122 unique words
