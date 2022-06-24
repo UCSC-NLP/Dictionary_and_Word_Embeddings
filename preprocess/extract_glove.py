@@ -89,7 +89,7 @@ if __name__ == "__main__":
     dev_outfile = "./../data/dev_glove.pkl"
     test_outfile = "./../data/test_glove.pkl"
 
-    extract_corresponding_glove_embeddings(pkl_data = train_pkl,embed_dict=embed_dict,output_filepath = train_outfile,infile="in_glove_test.txt",outfile="not_in_glove_test.txt")
-    extract_corresponding_glove_embeddings(pkl_data = dev_pkl,embed_dict=embed_dict,output_filepath = dev_outfile,infile="in_glove_test.txt",outfile="not_in_glove_test.txt")
+    extract_corresponding_glove_embeddings(pkl_data = train_pkl,embed_dict=embed_dict,output_filepath = train_outfile,infile="in_glove_train.txt",outfile="not_in_glove_train.txt")
+    extract_corresponding_glove_embeddings(pkl_data = dev_pkl,embed_dict=embed_dict,output_filepath = dev_outfile,infile="in_glove_dev.txt",outfile="not_in_glove_dev.txt")
     extract_corresponding_glove_embeddings(pkl_data = test_pkl,embed_dict=embed_dict,output_filepath = test_outfile,infile="in_glove_test.txt",outfile="not_in_glove_test.txt")
 
